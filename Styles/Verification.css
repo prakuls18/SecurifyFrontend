@@ -85,6 +85,13 @@ body{
     opacity: 0.4;
     background: #F2F2F2;
 }
+input{
+    height: 70px;
+    width: 70px;
+    border: none;
+    text-indent: 30px;
+    font-size: larger;
+}
 .NoCode{
     height: 30px;
 }
