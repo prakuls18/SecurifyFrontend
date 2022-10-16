@@ -15,7 +15,7 @@
     <title>Report</title>
   </head>
   <body>
-    <div class="HomeDiv">
+    <div class="ReportDiv">
       <div class="Navbar">
         <div class="Logo">
           <img src="Logo.png" alt="SecurifyLogo" id="logoImage" />
@@ -46,10 +46,34 @@
                 <label for="description" class="input_label">Description</label>
                 <textarea 
                     type="text"
-                    id="searchBox" 
-                    placeholder="Enter malicious email or link"
+                    id="textarea" 
+                    rows="4"
+                    placeholder="Provide a brief description in atleast 20 words."
                     ></textarea>
             </div>
+            <div class="input_field">
+                <label for="phone number" class="input_label">Phone Number</label>
+                <div id="phone_number_input">
+                    <img id="phone_code" width="70" src="country_code.png" />
+                    <input 
+                        type="text"
+                        id="searchBox" 
+                        placeholder="Enter your phone number"
+                        />
+                </div>
+            </div>
+            <div id="button_div">
+                <button id="ContinueButton">
+                    <span id="reportText">Continue</span>
+                </button>
+            </div>
+        </div>
+        <div class="DisclaimerDiv">
+            <p id="disclaimer">
+            🔒 We do not save any personally identifiable information. Nobody, not
+            even Securify, has access to or may view your personal information.
+            Click here to learn more.
+            </p>
         </div>
       </div>
   </body>
