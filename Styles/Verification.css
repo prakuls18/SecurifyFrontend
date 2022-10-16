@@ -3,7 +3,7 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 .HomeDiv{
-    width: 300px;
+    width: 400px;
     height: 400px;
     border-radius: 12px;
     background: #FFFFFF;
@@ -34,15 +34,74 @@ body{
     margin-top: 2px;
     color: #001530;
 }
-
 #lineBreak{
-    width: 375px;
+    width: 380px;
     opacity: 20%;
+}
+.GoBack{
+    display: flex;
+    height: max-content;
+}
+.BackButton{
+    height: max-content;
+    border: none;
+    background-color: white;
+}
+#backImage{
+    height: 28px;
+    width: 32px;
+    margin-left: 10px;
+}
+#backImageText{
+    font-size: 12px;
+    color: #001530;
+    font-weight: 400;
+    opacity: 0.8;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+}
+#enterCode{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.15);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.VerificationCodeText
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Code1, .Code2, .Code3, .Code4{
+    border: 1px solid #000000;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: -4px -4px 6px #EFEFEF, 2px 2px 6px 2px rgba(171, 171, 171, 0.4);
+    opacity: 0.4;
+    background: #F2F2F2;
+}
+.NoCode{
+    height: 30px;
+}
+#didNot{
+    text-align: center;
+    font: 400;
+    font-size: 12px;
+}
+span{
+    color: #006BFF;
 }
 .ReportDiv{
     margin: auto;
     height: 50px;
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
 .ReportButton{
     border: none;
@@ -64,7 +123,6 @@ body{
 }
 .DisclaimerDiv{
     display: flex;
-    margin-top: -10px;
     text-align: center;
     width: 310px;
     margin: auto;
